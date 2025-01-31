@@ -1,6 +1,9 @@
 # bicycle-parking-data
 > Bicycle Parking Locations in Chattanooga
 
+## download link
+https://raw.githubusercontent.com/openchattanooga/bicycle-parking-data/refs/heads/main/files/bicycle_parking.csv
+
 ## overpass query
 ```
 [out:csv(::type,::lat,::lon,access,bicycle_parking,capacity,covered,fee,'operator:type';true;',')];
