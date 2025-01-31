@@ -1,5 +1,5 @@
-# bike-parking-data
-WORK IN PROGRESS
+# bicycle-parking-data
+> Bicycle Parking Locations in Chattanooga
 
 ## overpass query
 ```
@@ -19,3 +19,6 @@ area
 
 out body center;
 ```
+
+## note
+Data comes from OpenStreetMap and is under the Open Database License (ODbL).

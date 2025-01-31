@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+curl https://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%3A%3Atype%2C%3A%3Alat%2C%3A%3Alon%2Caccess%2Cbicycle_parking%2Ccapacity%2Ccovered%2Cfee%2C%27operator%3Atype%27%3Btrue%3B%27%2C%27%29%5D%3B%0A%0A%2F%2F%20search%20for%20the%20relation%20named%20Chattanooga%0Aarea%0A%20%20%5Bplace%3Dcity%5D%0A%20%20%5B%22wikidata%22%3D%22Q186702%22%5D%0A%20%20%5B%22name%22%3D%22Chattanooga%22%5D-%3E.a%3B%0A%0A%0A%2F%2F%20get%20all%20bicycle%20parking%20options%20in%20the%20area%0A%28%0A%20%20nwr%5B%22amenity%22%3D%22bicycle_parking%22%5D%28area.a%29%3B%0A%29%3B%0A%0Aout%20body%20center%3B > ./files/bicycle_parking.csv
