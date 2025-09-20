@@ -36,7 +36,7 @@ node,35.0499510,-85.3116351,yes,stands,2,no,no,public
 node,35.0380052,-85.3075556,yes,stands,4,no,no,public
 node,35.0380849,-85.3075604,yes,stands,4,no,no,public
 node,35.0429157,-85.3091570,yes,stands,2,no,no,public
-node,35.0094929,-85.3283272,,,,,,
+node,35.0094929,-85.3283272,,wall_loops,5,no,,
 node,35.0551595,-85.3109093,,stands,9,,,
 node,35.0551547,-85.3106351,,stands,9,,,
 node,35.0173488,-85.3225820,,,,,no,
